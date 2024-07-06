@@ -1,5 +1,7 @@
 <template>
   <div class="px-3 py-10 md:px-10">
+    <h1 class="text-center text-4xl text-white font-bold">To-Do List</h1>
+    <br>
     <div class="w-full sm:w-1/2 lg:w-1/3 mx-auto">
       <!-- Exibe o spinner de carregamento se a propriedade loading for verdadeira -->
       <TodoSpinner v-if="loading" />
